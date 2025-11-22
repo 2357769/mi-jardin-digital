@@ -1,0 +1,12 @@
+********************************************
+FOOTER LINKS                               *
+<a href="sitemap">sitemap</a>
+<a href="../index">salir de aquí</a>
+********************************************
+
+*********************************************************
+DATELINE                                                *
+change: datetime, date in parentheses after datetime    *
+<p class="dateline" id="fecha-escrita"><relative-date datetime="YYYY-MM-DD" prefix="Escrito:"></relative-date> (DD MMM YYYY)</p>
+*********************************************************
+
