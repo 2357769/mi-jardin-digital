@@ -1,9 +1,3 @@
-let numButtonClicks = 0;
-function buttonClicked() {
-    numButtonClicks = numButtonClicks + 1;
-    document.getElementById("mainDiv").textContent =
-        "Button Clicked times: " + numButtonClicks;
-}
 /* RELATIVE DATE */
 /*
 
@@ -93,13 +87,13 @@ class RelativeDate extends HTMLElement {
         } else if (delta < 2 * day) {
             return this.prefix.length == 0 ? this.prefix + " ayer" : this.prefix + " ayer";
         } else if (delta < week) {
-            return this.format(Math.floor(delta / day), "día", null);
+            return "hace " + this.format(Math.floor(delta / day), "día", null);
         } else if (delta < month * 1.5) {
-            return this.format(Math.floor(delta / week), "semana", null);
+            return "hace " + this.format(Math.floor(delta / week), "semana", null);
         } else if (delta < year) {
-            return this.format(Math.floor(delta / month), "mes", null);
+            return "hace " + this.format(Math.floor(delta / month), "mes", null);
         } else {
-            return this.format(Math.floor(delta / year), "año", null);
+            return "hace " + this.format(Math.floor(delta / year), "año", null);
         }
     }
 }

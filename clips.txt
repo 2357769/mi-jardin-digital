@@ -7,6 +7,6 @@ FOOTER LINKS                               *
 *********************************************************
 DATELINE                                                *
 change: datetime, date in parentheses after datetime    *
-<p class="dateline" id="fecha-escrita"><relative-date datetime="YYYY-MM-DD" prefix="Escrito:"></relative-date> (DD MMM YYYY)</p>
+<p class="dateline" id="fecha-escrita">Escrito: DD mmm YYYY (<relative-date datetime="YYYY-MM-DD"></relative-date>)</p>
 *********************************************************
 
