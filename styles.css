@@ -6,7 +6,6 @@ body{
   background: #00b01f;
   color: #ffffff;
 }
-
 ::selection {
   background: #00b01f;
   color: #ffffff;
@@ -20,6 +19,12 @@ code{
     background-color:rgba(18, 128, 0, 0.55);
     padding: 1px 2px;
     color:white;
+}
+.highlightOnHover:hover{
+    display:block;
+    color:red;
+    background-color: red;
+
 }
 .dateline{
     font-style:italic;
@@ -69,16 +74,25 @@ ul{
 .gridnullb{
     grid-area:y;
 }
+.mapaContainer{
+    width:100%;
+    aspect-ratio:1 / 1;
+    height:auto;
+    max-height:500px;
+    overflow:hidden;
+}
 .mapa{
     background-image: url(img/entrada.png);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position:center;
+    background-position:top;
     width:100%;
+    aspect-ratio:1 / 1;
+    height:auto;
+    max-height:500px;
     max-width:500px;
-    height:500px;
     margin:auto;
-    display:grid;
+    display:inline-grid;
     grid-template:
         'f o d l'
         'x x d l'
@@ -90,16 +104,23 @@ ul{
     background-image: url(img/cocino.png);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position:center;
+    background-position:top;
     width:100%;
+    aspect-ratio:1 / 1;
+    height:auto;
+    max-height:500px;
     max-width:500px;
-    height:500px;
     margin:auto;
-    display:grid;
+    display:inline-grid;
     grid-template:
-    'x x x'
-    'y y j'
+    'q q q'
+    'x x j'
+    'c y j'
     'c z m';
+    grid-template-rows: 20% auto 10% 30%;
+}
+.gridnullq{
+    grid-area:q;
 }
 .puertaaljardin{
     grid-area:j;
@@ -150,6 +171,16 @@ footer > a{
     margin-top:20px;
 }
 #nav-box > a{
+    padding: 1px 6px;
+    border: 3px outset #6f9eff;
+    border-radius: 3px;
+    text-decoration:none;
+    color:#0034d4;
+    font-size:medium;
+    display:inline;
+    margin-top:20px;
+}
+nav > a{
     padding: 1px 6px;
     border: 3px outset #6f9eff;
     border-radius: 3px;
