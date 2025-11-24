@@ -180,6 +180,16 @@ footer > a{
     display:inline;
     margin-top:20px;
 }
+nav > a{
+    padding: 1px 6px;
+    border: 3px outset #6f9eff;
+    border-radius: 3px;
+    text-decoration:none;
+    color:#0034d4;
+    font-size:medium;
+    display:inline;
+    margin-top:20px;
+}
 #nav-box > a.button{
     display:inline;
     font-size: medium;
