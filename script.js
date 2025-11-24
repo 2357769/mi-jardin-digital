@@ -11,7 +11,6 @@ src = https://gist.github.com/deanebarker/aeaa0485cf2cbc6c068dd65ba49ae500
 */
 
 class RelativeDate extends HTMLElement {
-
     static get observedAttributes() {
         return ["datetime", "prefix", "suffix"];
     }
@@ -25,7 +24,7 @@ class RelativeDate extends HTMLElement {
     }
 
     get prefix() {
-        return this.getAttribute("prefix") ?? '';
+        return this.getAttribute("prefix") ?? "";
     }
 
     set prefix(value) {
@@ -33,7 +32,7 @@ class RelativeDate extends HTMLElement {
     }
 
     get suffix() {
-        return this.getAttribute("suffix") ?? '';
+        return this.getAttribute("suffix") ?? "";
     }
 
     set suffix(value) {
@@ -62,16 +61,14 @@ class RelativeDate extends HTMLElement {
     }
 
     format(count, singular, plural = null) {
-
-        let prefix = this.prefix.length == 0 ? '' : this.prefix + ' ';
-        let suffix = this.suffix.length == 0 ? '' : ' ' + this.suffix;
+        let prefix = this.prefix.length == 0 ? "" : this.prefix + " ";
+        let suffix = this.suffix.length == 0 ? "" : " " + this.suffix;
         let unit = count == 1 ? singular : !plural ? singular + "s" : plural; // NOTE: technically I don't do anything but add an s...
 
         return prefix + count + " " + unit + suffix;
     }
 
     getRelativeDate(date) {
-
         var delta = Math.round((Date.now() - date) / 1000);
 
         var minute = 60,

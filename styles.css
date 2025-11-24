@@ -1,196 +1,199 @@
-body{
-    background-color:#d7e1fa;
-    text-align:center;
+body {
+    background-color: #d7e1fa;
+    text-align: center;
 }
-::-moz-selection { /* Code for Firefox */
-  background: #00b01f;
-  color: #ffffff;
+::-moz-selection {
+    /* Code for Firefox */
+    background: #00b01f;
+    color: #ffffff;
 }
 ::selection {
-  background: #00b01f;
-  color: #ffffff;
+    background: #00b01f;
+    color: #ffffff;
 }
-a{
-    color:#009543;
-    text-transform:lowercase;
+a {
+    color: #009543;
+    text-transform: lowercase;
 }
-code{
-    font-size:110%;
-    background-color:rgba(18, 128, 0, 0.55);
+code {
+    font-size: 110%;
+    background-color: rgba(18, 128, 0, 0.55);
     padding: 1px 2px;
-    color:white;
+    color: white;
 }
-.highlightOnHover:hover{
-    display:block;
-    color:red;
+.highlightOnHover:hover {
+    display: block;
+    color: red;
     background-color: red;
-
 }
-.dateline{
-    font-style:italic;
-    margin-top:10px;
-    margin-bottom:10px;
+.dateline {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-footer{
+footer {
     border-top: solid 2px black;
-    width:800px;
-    margin:auto;
-    display:inline-flex;
-    justify-content:space-evenly;
-    margin-top:30px;
-    padding-top:15px;
+    width: 800px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-top: 15px;
 }
-h1{
-    text-shadow: 2px 2px rgba(0, 181, 255, 0.52),
-                4px 4px rgb(199, 255, 37);
-    margin:9px;
+h1 {
+    text-shadow:
+        2px 2px rgba(0, 181, 255, 0.52),
+        4px 4px rgb(199, 255, 37);
+    margin: 9px;
 }
-h2{
-    margin:3px;
-    font-size:15pt;
+h2 {
+    margin: 3px;
+    font-size: 15pt;
 }
-p{
-    margin:5px;
+p {
+    margin: 5px;
 }
-ul{
-    margin:5px;
-    margin-bottom:13px;
+ul {
+    margin: 5px;
+    margin-bottom: 13px;
 }
-.familiafoto{
-    grid-area:f;
+.familiafoto {
+    grid-area: f;
 }
-.puertaafuera{
-    grid-area:o;
+.puertaafuera {
+    grid-area: o;
 }
-.puertacuarto{
-    grid-area:d;
+.puertacuarto {
+    grid-area: d;
 }
-.amorfoto{
-    grid-area:l;
+.amorfoto {
+    grid-area: l;
 }
-.gridnulla{
-    grid-area:x;
+.gridnulla {
+    grid-area: x;
 }
-.gridnullb{
-    grid-area:y;
+.gridnullb {
+    grid-area: y;
 }
-.mapaContainer{
-    width:100%;
-    aspect-ratio:1 / 1;
-    height:auto;
-    max-height:500px;
-    overflow:hidden;
+.mapaContainer {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    max-height: 500px;
+    overflow: hidden;
 }
-.mapa{
+.mapa {
     background-image: url(img/entrada.png);
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position:top;
-    width:100%;
-    aspect-ratio:1 / 1;
-    height:auto;
-    max-height:500px;
-    max-width:500px;
-    margin:auto;
-    display:inline-grid;
+    background-size: contain;
+    background-position: top;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    display: inline-grid;
     grid-template:
-        'f o d l'
-        'x x d l'
-        'y y y y';
-    grid-template-columns:30% 25% 25% 20%;
-    grid-template-rows:25% 25% 50%;
+        "f o d l"
+        "x x d l"
+        "y y y y";
+    grid-template-columns: 30% 25% 25% 20%;
+    grid-template-rows: 25% 25% 50%;
 }
-.cocinosala{
+.cocinosala {
     background-image: url(img/cocino.png);
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position:top;
-    width:100%;
-    aspect-ratio:1 / 1;
-    height:auto;
-    max-height:500px;
-    max-width:500px;
-    margin:auto;
-    display:inline-grid;
+    background-size: contain;
+    background-position: top;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    display: inline-grid;
     grid-template:
-    'q q q'
-    'x x j'
-    'c y j'
-    'c z m';
+        "q q q"
+        "x x j"
+        "c y j"
+        "c z m";
     grid-template-rows: 20% auto 10% 30%;
 }
-.gridnullq{
-    grid-area:q;
+.gridnullq {
+    grid-area: q;
 }
-.puertaaljardin{
-    grid-area:j;
+.puertaaljardin {
+    grid-area: j;
 }
-.cubierta{
-    grid-area:c;
+.cubierta {
+    grid-area: c;
 }
-.gridnullc{
-    grid-area:z;
+.gridnullc {
+    grid-area: z;
 }
-.mesa{
-    grid-area:m;
+.mesa {
+    grid-area: m;
 }
-aside{
-    font-size:small;
-    margin-top:0;
+aside {
+    font-size: small;
+    margin-top: 0;
 }
-#content{
-    border-top:black solid 2px;
-    width:auto;
-    max-width:800px;
-    text-align:justify;
-    margin:auto;
+#content {
+    border-top: black solid 2px;
+    width: auto;
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
 }
-.woohoo{
-    text-shadow: 2px 2px rgba(0, 181, 255, 0.52),
-                4px 4px rgb(199, 255, 37);
+.woohoo {
+    text-shadow:
+        2px 2px rgba(0, 181, 255, 0.52),
+        4px 4px rgb(199, 255, 37);
 }
-footer > a{
-    text-align:center;
+footer > a {
+    text-align: center;
 }
-.center-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.woohoo-box{
-    box-shadow: 2px 2px rgba(0, 181, 255, 0.52),
-                4px 4px rgb(199, 255, 37);
+.woohoo-box {
+    box-shadow:
+        2px 2px rgba(0, 181, 255, 0.52),
+        4px 4px rgb(199, 255, 37);
 }
-.button{
+.button {
     padding: 1px 6px;
     border: 3px outset #6f9eff;
     border-radius: 3px;
-    text-decoration:none;
-    color:#0034d4;
-    font-size:larger;
-    margin-top:20px;
+    text-decoration: none;
+    color: #0034d4;
+    font-size: larger;
+    margin-top: 20px;
 }
-#nav-box > a{
+#nav-box > a {
     padding: 1px 6px;
     border: 3px outset #6f9eff;
     border-radius: 3px;
-    text-decoration:none;
-    color:#0034d4;
-    font-size:medium;
-    display:inline;
-    margin-top:20px;
+    text-decoration: none;
+    color: #0034d4;
+    font-size: medium;
+    display: inline;
+    margin-top: 20px;
 }
-nav > a{
+nav > a {
     padding: 1px 6px;
     border: 3px outset #6f9eff;
     border-radius: 3px;
-    text-decoration:none;
-    color:#0034d4;
-    font-size:medium;
-    display:inline;
-    margin-top:20px;
+    text-decoration: none;
+    color: #0034d4;
+    font-size: medium;
+    display: inline;
+    margin-top: 20px;
 }
-#nav-box > a.button{
-    display:inline;
+#nav-box > a.button {
+    display: inline;
     font-size: medium;
 }
