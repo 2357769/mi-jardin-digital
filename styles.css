@@ -1,32 +1,31 @@
 ::-moz-selection {
     /* Code for Firefox */
-    background: #00b01f;
-    color: #ffffff;
+    background: rgb(0, 176, 31);
+    color: rgb(255, 255, 255);
 }
 ::selection {
-    background: #00b01f;
-    color: #ffffff;
+    background: rgb(0, 176, 31);
+    color: rgb(255, 255, 255);
 }
 
 /* BASIC PAGE FORMATTING */
     /* body */
 body {
-    background-color: #d7e1fa;
+    background-color: rgb(215, 225, 250);
     text-align: center;
 }
 a {
-    color: #009543;
-    text-transform: lowercase;
+    color: rgb(0, 149, 67);
 }
 code {
     font-size: 110%;
     background-color: rgba(18, 128, 0, 0.55);
     padding: 1px 2px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 h1 {
     text-shadow:
-        2px 2px rgba(0, 181, 255, 0.52),
+        2px 2px rgb(118, 215, 255),
         4px 4px rgb(199, 255, 37);
     margin: 9px;
 }
@@ -48,12 +47,12 @@ ul {
     margin-bottom: 10px;
 }
     /* decoration */
-.woohoo {
+.bg-shadow {
     text-shadow:
         2px 2px rgba(0, 181, 255, 0.52),
         4px 4px rgb(199, 255, 37);
 }
-.woohoo-box {
+.bg-shadow-box {
     box-shadow:
         2px 2px rgba(0, 181, 255, 0.52),
         4px 4px rgb(199, 255, 37);
@@ -61,33 +60,22 @@ ul {
     /* nav box - colorful buttons */
 nav > a {
     padding: 1px 6px;
-    border: 3px outset #6f9eff;
+    border: 3px outset rgb(111, 158, 255);
     border-radius: 3px;
     text-decoration: none;
-    color: #0034d4;
-    font-size: medium;
-    display: inline;
-    margin-top: 20px;
-}
-nav > a.button {
-    display: inline;
-    font-size: medium;
-}
-.button {
-    padding: 1px 6px;
-    border: 3px outset #6f9eff;
-    border-radius: 3px;
-    text-decoration: none;
-    color: #0034d4;
+    color: rgb(0, 52, 212);
     font-size: larger;
     margin-top: 20px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
 }
     /* footer */
 footer {
-    border-top: solid 2px black;
-    width: 800px;
+    border-top: solid 2px rgb(0, 0, 0);
     margin: auto;
-    display: inline-flex;
+    display: flex;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     margin-top: 30px;
     padding-top: 15px;
@@ -102,7 +90,7 @@ footer > a {
 }
     /* content div */
 #content {
-    border-top: black solid 2px;
+    border-top: rgb(0, 0, 0) solid 2px;
     width: auto;
     max-width: 800px;
     text-align: justify;
@@ -131,15 +119,12 @@ footer > a {
 }
     /* photo nav */ 
 .mapa {
-    background-image: url(img/entrada.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    width: 100%;
+    background: url(img/entrada.png) top/contain no-repeat;
     aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     max-height: 500px;
-    max-width: 500px;
     margin: auto;
     display: inline-grid;
     grid-template:
@@ -151,9 +136,9 @@ footer > a {
 }
 .mapaContainer {
     width: 100%;
-    aspect-ratio: 1 / 1;
     height: auto;
     max-height: 500px;
+    aspect-ratio: 1 / 1;
     overflow: hidden;
 }
 
@@ -176,15 +161,12 @@ footer > a {
 }
     /* photo nav */
 .cocinosala {
-    background-image: url(img/cocino.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    width: 100%;
+    background: url(img/cocino.png) top/contain no-repeat;
     aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     max-height: 500px;
-    max-width: 500px;
     margin: auto;
     display: inline-grid;
     grid-template:
@@ -196,8 +178,8 @@ footer > a {
 }
 
 /* DEV TOOLS */
-/* .highlightOnHover:hover {
+.highlightOnHover:hover {
     display: block;
     color: red;
     background-color: red;
-} */
+}
