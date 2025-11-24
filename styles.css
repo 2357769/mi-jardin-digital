@@ -1,196 +1,185 @@
-body{
-    background-color:#d7e1fa;
-    text-align:center;
-}
-::-moz-selection { /* Code for Firefox */
-  background: #00b01f;
-  color: #ffffff;
+::-moz-selection {
+    /* Code for Firefox */
+    background: rgb(0, 176, 31);
+    color: rgb(255, 255, 255);
 }
 ::selection {
-  background: #00b01f;
-  color: #ffffff;
+    background: rgb(0, 176, 31);
+    color: rgb(255, 255, 255);
 }
-a{
-    color:#009543;
-    text-transform:lowercase;
-}
-code{
-    font-size:110%;
-    background-color:rgba(18, 128, 0, 0.55);
-    padding: 1px 2px;
-    color:white;
-}
-.highlightOnHover:hover{
-    display:block;
-    color:red;
-    background-color: red;
 
+/* BASIC PAGE FORMATTING */
+    /* body */
+body {
+    background-color: rgb(215, 225, 250);
+    text-align: center;
 }
-.dateline{
-    font-style:italic;
-    margin-top:10px;
-    margin-bottom:10px;
+a {
+    color: rgb(0, 149, 67);
 }
-footer{
-    border-top: solid 2px black;
-    width:800px;
-    margin:auto;
-    display:inline-flex;
-    justify-content:space-evenly;
-    margin-top:30px;
-    padding-top:15px;
+code {
+    font-size: 110%;
+    background-color: rgba(18, 128, 0, 0.55);
+    padding: 1px 2px;
+    color: rgb(255, 255, 255);
 }
-h1{
-    text-shadow: 2px 2px rgba(0, 181, 255, 0.52),
-                4px 4px rgb(199, 255, 37);
-    margin:9px;
+h1 {
+    text-shadow:
+        2px 2px rgb(118, 215, 255),
+        4px 4px rgb(199, 255, 37);
+    margin: 9px;
 }
-h2{
-    margin:3px;
-    font-size:15pt;
+h2 {
+    margin: 3px;
+    font-size: 15pt;
 }
-p{
-    margin:5px;
+p {
+    margin: 5px;
 }
-ul{
-    margin:5px;
-    margin-bottom:13px;
+ul {
+    margin: 5px;
+    margin-bottom: 13px;
 }
-.familiafoto{
-    grid-area:f;
+    /* dateline */
+.dateline {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.puertaafuera{
-    grid-area:o;
+    /* decoration */
+.bg-shadow {
+    text-shadow:
+        2px 2px rgba(0, 181, 255, 0.52),
+        4px 4px rgb(199, 255, 37);
 }
-.puertacuarto{
-    grid-area:d;
+.bg-shadow-box {
+    box-shadow:
+        2px 2px rgba(0, 181, 255, 0.52),
+        4px 4px rgb(199, 255, 37);
 }
-.amorfoto{
-    grid-area:l;
+    /* nav box - colorful buttons */
+nav > a {
+    padding: 1px 6px;
+    border: 3px outset rgb(111, 158, 255);
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgb(0, 52, 212);
+    font-size: larger;
+    margin-top: 20px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
 }
-.gridnulla{
-    grid-area:x;
+    /* footer */
+footer {
+    border-top: solid 2px rgb(0, 0, 0);
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-top: 15px;
 }
-.gridnullb{
-    grid-area:y;
+footer > a {
+    text-align: center;
 }
-.mapaContainer{
-    width:100%;
-    aspect-ratio:1 / 1;
-    height:auto;
-    max-height:500px;
-    overflow:hidden;
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.mapa{
-    background-image: url(img/entrada.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position:top;
-    width:100%;
-    aspect-ratio:1 / 1;
-    height:auto;
-    max-height:500px;
-    max-width:500px;
-    margin:auto;
-    display:inline-grid;
+    /* content div */
+#content {
+    border-top: rgb(0, 0, 0) solid 2px;
+    width: auto;
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
+}
+
+/* CASA - ENTRADA */
+    /* grid areas */
+.amorfoto {
+    grid-area: l;
+}
+.gridnulla {
+    grid-area: x;
+}
+.gridnullb {
+    grid-area: y;
+}
+.puertacuarto {
+    grid-area: d;
+}
+.puertaafuera {
+    grid-area: o;
+}
+.familiafoto {
+    grid-area: f;
+}
+    /* photo nav */ 
+.mapa {
+    background: url(img/entrada.png) top/contain no-repeat;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 500px;
+    margin: auto;
+    display: inline-grid;
     grid-template:
-        'f o d l'
-        'x x d l'
-        'y y y y';
-    grid-template-columns:30% 25% 25% 20%;
-    grid-template-rows:25% 25% 50%;
+        "f o d l"
+        "x x d l"
+        "y y y y";
+    grid-template-columns: 30% 25% 25% 20%;
+    grid-template-rows: 25% 25% 50%;
 }
-.cocinosala{
-    background-image: url(img/cocino.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position:top;
-    width:100%;
-    aspect-ratio:1 / 1;
-    height:auto;
-    max-height:500px;
-    max-width:500px;
-    margin:auto;
-    display:inline-grid;
+.mapaContainer {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+/* COCINA */
+    /* grid areas */
+.cubierta {
+    grid-area: c;
+}
+.mesa {
+    grid-area: m;
+}
+.gridnullc {
+    grid-area: z;
+}
+.gridnullq {
+    grid-area: q;
+}
+.puertaaljardin {
+    grid-area: j;
+}
+    /* photo nav */
+.cocinosala {
+    background: url(img/cocino.png) top/contain no-repeat;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 500px;
+    margin: auto;
+    display: inline-grid;
     grid-template:
-    'q q q'
-    'x x j'
-    'c y j'
-    'c z m';
+        "q q q"
+        "x x j"
+        "c y j"
+        "c z m";
     grid-template-rows: 20% auto 10% 30%;
 }
-.gridnullq{
-    grid-area:q;
-}
-.puertaaljardin{
-    grid-area:j;
-}
-.cubierta{
-    grid-area:c;
-}
-.gridnullc{
-    grid-area:z;
-}
-.mesa{
-    grid-area:m;
-}
-aside{
-    font-size:small;
-    margin-top:0;
-}
-#content{
-    border-top:black solid 2px;
-    width:auto;
-    max-width:800px;
-    text-align:justify;
-    margin:auto;
-}
-.woohoo{
-    text-shadow: 2px 2px rgba(0, 181, 255, 0.52),
-                4px 4px rgb(199, 255, 37);
-}
-footer > a{
-    text-align:center;
-}
-.center-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.woohoo-box{
-    box-shadow: 2px 2px rgba(0, 181, 255, 0.52),
-                4px 4px rgb(199, 255, 37);
-}
-.button{
-    padding: 1px 6px;
-    border: 3px outset #6f9eff;
-    border-radius: 3px;
-    text-decoration:none;
-    color:#0034d4;
-    font-size:larger;
-    margin-top:20px;
-}
-#nav-box > a{
-    padding: 1px 6px;
-    border: 3px outset #6f9eff;
-    border-radius: 3px;
-    text-decoration:none;
-    color:#0034d4;
-    font-size:medium;
-    display:inline;
-    margin-top:20px;
-}
-nav > a{
-    padding: 1px 6px;
-    border: 3px outset #6f9eff;
-    border-radius: 3px;
-    text-decoration:none;
-    color:#0034d4;
-    font-size:medium;
-    display:inline;
-    margin-top:20px;
-}
-#nav-box > a.button{
-    display:inline;
-    font-size: medium;
+
+/* DEV TOOLS */
+.highlightOnHover:hover {
+    display: block;
+    color: red;
+    background-color: red;
 }
