@@ -1,12 +1,15 @@
 ********************************************
 FOOTER LINKS                               *
 <a href="sitemap">sitemap</a>
-<a href="../index">salir de aquí</a>
+<a href="../index">leave</a>
 ********************************************
 
 *********************************************************
 DATELINE                                                *
 change: datetime, date in parentheses after datetime    *
-<p class="dateline" id="fecha-escrita"><relative-date datetime="YYYY-MM-DD" prefix="Escrito:"></relative-date> (DD MMM YYYY)</p>
+      <p class="dateline" id="fecha-escrita">
+        <relative-date datetime="2025-11-21" prefix="Written:" suffix="ago"></relative-date> (21 nov 2025)<br>
+        <relative-date datetime="2025-11-25" prefix="Updated:" suffix="ago"></relative-date> (25 nov 2025)
+      </p>
 *********************************************************
 
