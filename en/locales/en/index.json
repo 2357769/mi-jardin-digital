@@ -1,0 +1,8 @@
+{
+  "about": "About me",
+  "whatDoILike": "What do I like to do?",
+  "aboutContent": "<p>Welcome to my personal site... I made it about 9 months ago, and I'm a new woman, so it's possible that everything written in these pages is a little outdated. Now, I'm in my 3rd year in college, so I've started taking my education courses :) I'm pretty happy with my choice in career, even though the program at my school annoys me so often.</p>",
+  "whatDoILikeContent": "<p>Well, I love web design. I love those sites that experiment with the medium. I've also seen a few \"digital gardens\" online, collections of things that the creator appreciates. I love the idea, and the digital garden sites made by others inspire me so much that I made my own.</p><p>It's organized like an apartment. A pretty strange apartment, since I'm not an artist and I wanted the elements to line up nicely to organize with a <code>grid</code>.</p>",
+  "exit": "exit",
+  "welcome": "welcome..."
+}
