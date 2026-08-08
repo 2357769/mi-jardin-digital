@@ -183,3 +183,7 @@ footer > a {
     color: red;
     background-color: red;
 }
+.flexbox{
+    display:flex;
+    flex-wrap:wrap;
+}
