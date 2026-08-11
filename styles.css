@@ -57,6 +57,9 @@ ul {
         2px 2px rgba(0, 181, 255, 0.52),
         4px 4px rgb(199, 255, 37);
 }
+.aside{
+    font-style:italic;
+}
 /* nav box - colorful buttons */
 nav > a {
     padding: 1px 6px;
