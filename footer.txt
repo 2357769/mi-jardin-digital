@@ -1,5 +1,3 @@
-<div class="flexbox" id="footer-div">
 	<a href="https://github.com/2357769/mi-jardin-digital/issues" class="footer-link">Github Issues Page</a>
 	<a href="https://app.thestorygraph.com/profile/aixouq" class="footer-link">Storygraph</a>
 	<a href="sitemap.html" class="footer-link">Sitemap</a>
-</div>

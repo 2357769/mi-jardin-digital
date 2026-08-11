@@ -1,4 +1,9 @@
 function loadFooter(){
     console.log("adding footer");
-    $("#footer-div").load("footer.txt");
+    $("#content").append("<footer></footer>");
+    $("footer").load("footer.txt");
 }
+
+$(function(){
+    loadFooter();
+});
