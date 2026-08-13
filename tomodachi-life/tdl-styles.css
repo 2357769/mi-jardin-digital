@@ -1,0 +1,19 @@
+img {
+    width: 95%;
+    border:2px #c8c8c8 solid;
+    margin:3px;
+    text-align:center;
+}
+footer a {
+    color: white;
+}
+body {
+    background-color: #4b8191;
+    color: white;
+}
+h1 {
+    color: white;
+    text-shadow:
+        2px 2px rgb(0, 152, 214),
+        4px 4px rgb(169, 227, 0);
+}
