@@ -1,32 +1,32 @@
 ::-moz-selection {
     /* Code for Firefox */
-    background: rgb(0, 176, 31);
-    color: rgb(255, 255, 255);
+    background: #00b01f;
+    color: #ffffff;
 }
 ::selection {
-    background: rgb(0, 176, 31);
-    color: rgb(255, 255, 255);
+    background: #00b01f;
+    color: #ffffff;
 }
 
 /* BASIC PAGE FORMATTING */
 /* body */
 body {
-    background-color: rgb(215, 225, 250);
+    background-color: #d7e1fa;
     text-align: center;
 }
 a {
-    color: rgb(0, 149, 67);
+    color: #009543;
 }
 code {
     font-size: 110%;
-    background-color: rgba(18, 128, 0, 0.55);
+    background-color: #1280008c;
     padding: 1px 2px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 h1 {
     text-shadow:
-        2px 2px rgb(118, 215, 255),
-        4px 4px rgb(199, 255, 37);
+        2px 2px #76d7ff,
+        4px 4px #c7ff25;
     margin: 9px;
 }
 h2 {
@@ -49,24 +49,24 @@ ul {
 /* decoration */
 .bg-shadow {
     text-shadow:
-        2px 2px rgba(0, 181, 255, 0.52),
-        4px 4px rgb(199, 255, 37);
+        2px 2px #00b5ff85,
+        4px 4px #c7ff25;
 }
 .bg-shadow-box {
     box-shadow:
-        2px 2px rgba(0, 181, 255, 0.52),
-        4px 4px rgb(199, 255, 37);
+        2px 2px #00b5ff85,
+        4px 4px #c7ff25;
 }
-.aside{
-    font-style:italic;
+.aside {
+    font-style: italic;
 }
 /* nav box - colorful buttons */
 nav > a {
     padding: 1px 6px;
-    border: 3px outset rgb(111, 158, 255);
+    border: 3px outset #6f9eff;
     border-radius: 3px;
     text-decoration: none;
-    color: rgb(0, 52, 212);
+    color: #0034d4;
     font-size: larger;
     margin-top: 20px;
     display: inline;
@@ -75,7 +75,7 @@ nav > a {
 }
 /* footer */
 footer {
-    border-top: solid 2px rgb(0, 0, 0);
+    border-top: solid 2px #000000;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -93,18 +93,25 @@ footer > a {
 }
 /* content div */
 #content {
-    border-top: rgb(0, 0, 0) solid 2px;
+    border-top: #000000 solid 2px;
     width: auto;
     max-width: 800px;
     text-align: justify;
     margin: auto;
+    background-color: #d7e1fa;
 }
 .highlightOnHover:hover {
     display: block;
-    color: red;
-    background-color: red;
+    color: #ff0000;
+    background-color: #ff0000;
 }
 .flexbox {
     display: flex;
     flex-wrap: wrap;
+}
+/* special divs */
+#update-log {
+}
+#8831-button-box {
+    border: dotted 1px #000000;
 }
