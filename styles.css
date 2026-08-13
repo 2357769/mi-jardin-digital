@@ -12,6 +12,7 @@
 /* body */
 body {
     background-color: #d7e1fa;
+    background-image: url(bubbles-bg.gif);
     text-align: center;
 }
 a {
@@ -93,12 +94,13 @@ footer > a {
 }
 /* content div */
 #content {
-    border-top: #000000 solid 2px;
+    border: #000000 solid 2px;
     width: auto;
     max-width: 800px;
     text-align: justify;
     margin: auto;
     background-color: #d7e1fa;
+    padding:5px;
 }
 .highlightOnHover:hover {
     display: block;
@@ -111,7 +113,23 @@ footer > a {
 }
 /* special divs */
 #update-log {
+    border:double black;
+    overflow-y:auto;
+    height:auto;
+    max-height:50vw;
 }
-#8831-button-box {
-    border: dotted 1px #000000;
+#box-8831 {
+    border: dotted 2px black;
+    padding: 5px;
+    width: 66%;
+    min-width: 100px;
+    margin: auto;
+    text-align: center;
 }
+#box-8831 img {
+    margin: auto;
+}
+#box-8831 textarea {
+    margin: auto;
+}
+
