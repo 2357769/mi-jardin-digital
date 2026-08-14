@@ -11,7 +11,7 @@
 /* BASIC PAGE FORMATTING */
 /* body */
 body {
-    background-color: #d7e1fa;
+    background-color: #3058bc;
     background-image: url(bubbles-bg.gif);
     text-align: center;
 }
@@ -99,7 +99,7 @@ footer > a {
     max-width: 800px;
     text-align: justify;
     margin: auto;
-    background-color: #d7e1fa;
+    background-color: #b4caff;
     padding:5px;
 }
 .highlightOnHover:hover {
