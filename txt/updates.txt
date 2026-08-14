@@ -5,6 +5,6 @@
     	<li>Added some more sites to button gallery</li>
     	<li>Made my own (boring) button</li>
     	<li>Made this updates area (using JQuery! GO ME!)</li>
-    	<li>Added my <a href="tomodachi-life/index.html">tomodachi life page</a></li>
+    	<li>Added my <a href="page/tomodachi-life.html">tomodachi life page</a></li>
     </ul>
 </li>
