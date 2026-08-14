@@ -1,0 +1,45 @@
+img {
+    width: 95%;
+    max-width: 400px;
+    border: 2px #c8c8c8 solid;
+    margin: 3px auto;
+    text-align: center;
+}
+a {
+    color: white;
+}
+body {
+    background-color: #4b8191;
+    color: white;
+    text-align: center;
+}
+#content{
+    background-color:#4b8191;
+}
+h1 {
+    color: white;
+    text-shadow:
+        2px 2px rgb(0, 152, 214),
+        4px 4px rgb(169, 227, 0);
+}
+.slideshow {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    width: 80%;
+    max-width: 569px;
+    object-fit: contain;
+}
+#content {
+    text-align: center;
+}
+iframe {
+    margin: auto;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+p{
+    max-width:900px;
+    margin:10px auto;
+}
