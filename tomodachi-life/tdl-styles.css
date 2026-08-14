@@ -1,8 +1,8 @@
 img {
     width: 95%;
-    max-width: 500px;
+    max-width: 400px;
     border: 2px #c8c8c8 solid;
-    margin: 3px;
+    margin: 3px auto;
     text-align: center;
 }
 a {
@@ -11,7 +11,7 @@ a {
 body {
     background-color: #4b8191;
     color: white;
-    text-align:center;
+    text-align: center;
 }
 h1 {
     color: white;
@@ -20,12 +20,15 @@ h1 {
         4px 4px rgb(169, 227, 0);
 }
 .slideshow {
-    height:auto;
+    height: auto;
     aspect-ratio: 16 / 9;
     width: 80%;
-    max-width:569px;
+    max-width: 569px;
     object-fit: contain;
 }
-#content{
-    text-align:center;
+#content {
+    text-align: center;
+}
+iframe {
+    margin: auto;
 }
