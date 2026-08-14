@@ -6,5 +6,6 @@
     	<li>Made my own (boring) button</li>
     	<li>Made this updates area (using JQuery! GO ME!)</li>
     	<li>Added my <a href="page/tomodachi-life.html">tomodachi life page</a></li>
+        <li>Bought the domain quoxia.net! YAY!</li>
     </ul>
 </li>
