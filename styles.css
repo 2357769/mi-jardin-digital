@@ -41,6 +41,9 @@ ul {
     margin: 5px;
     margin-bottom: 13px;
 }
+img{
+    max-width:100%;
+}
 /* dateline */
 .dateline {
     font-style: italic;
@@ -132,4 +135,10 @@ footer > a {
 #box-8831 textarea {
     margin: auto;
 }
-
+.back-button{
+    text-align:center;
+}
+#blog-posts-table{
+    width:100%;
+    margin:5px;
+}
