@@ -1,3 +1,11 @@
+<!-- UPDATE 8/14/2026 -->
+<li>
+	<strong>08-14-2026</strong>
+	<ul>
+		<li>Added <a href="/page/dragon-ball.html">a liveblog about Gohan from DBZ</a></li>
+		<li>Edited footer and fixed some links</li>
+	</ul>
+</li>
 <!-- UPDATE 8/13/2026 -->
 <li>
     <strong>08-13-2026</strong>
