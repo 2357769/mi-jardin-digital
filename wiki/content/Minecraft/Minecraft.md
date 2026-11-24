@@ -1,3 +1,9 @@
+---
+publish: true
+tags:
+  - home
+---
+
 This is my personal Minecraft wiki. 
 
 [[Journal]]
