@@ -1,3 +1,11 @@
+<!-- UPDATE 11/24/2026 -->
+<li>
+    <strong>11-24-2026</strong>
+    <ul>
+        <li>Added <a href="/page/new-laptop.html">new laptop</a> blog post.</li>
+        <li>Began the process of creating a personal wiki using Obisidan and Quartz. It is not quite ready to be promoted on the front page of my site, though.</li>
+    </ul>
+</li>
 <!-- UPDATE 8/14/2026 -->
 <li>
 	<strong>08-14-2026</strong>
